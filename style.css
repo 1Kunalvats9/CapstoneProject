@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+/* DotGothic16 */
+/*DotGothic16*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+.page1{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    width: 70%;
+    height: 7vh;
+    background-color: rgb(229, 227, 252);
+    padding: 5px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    box-shadow: 0 0 15px 15px rgb(244, 241, 241);
+}
+.nav-options{
+    display: flex;
+    width: 33%;
+    gap: 20px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    align-items: center;
+    font-size: 1em;
+    justify-content: flex-start;
+}
+ul li{
+    list-style: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+#nav-title{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: "DotGothic16";
+    line-height:1.6;
+    letter-spacing: -1px;
+    width: 33%;
+}
+#nav-contact{
+    font-family: "Archivo", sans-serif;
+    font-weight: 100;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul li:hover{
+    scale: 1.1;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s, text-decoration-thickness 0.3s;
+}
+.hero-text{
+    font-family: "DotGothic16";
+    font-size: 120px;
+    font-weight: 100;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    line-height: 130%;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.hero-img{
+    width: 90%;
+    height: 78vh;
+    background: url('assets/heroImg.png');
+    background-position: center;
+    background-size:cover;
+}
+
+.page2{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.card-section{
+    width: 90%;
+    height: 100%;
+    margin-top: 7%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    grid-row-gap: 8%;
+}
+.card{
+    width: 30%;
+    height: 32%;
+}
+.img{
+    width: 100%;
+    height:85% ;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    font-family: "Archivo", sans-serif;
+    margin-top: 10px;
+}
+.text h2{
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    letter-spacing: -1px;
+
+}
+.text p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10%;
+    position:relative;
+}
+.p3-intro-div{
+    width: 100%;
+    height: 30%;
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p3-intro{
+    font-family: "DotGothic16";
+    font-weight: 400;
+    width: 70%;
+    line-height: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 49px;
+    letter-spacing: 2px;
+    text-align: center;
+    transform:  scaleY(1.2);
+}
+.p3-text{
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+.p3left{
+    font-family: "DotGothic16";
+    padding-left: 5% ;
+}
+.p3left h1{
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.upper{
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.upper h2{
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+.lower h1{
+    font-family: "Archivo", sans-serif ;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 1.4;
+    width: 80%;
+    margin-top: 10%;
+}
+.page4{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.client-txt{
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 55px;
+    font-family: "DotGothic16";
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.p4-card-section{
+    overflow-x: scroll;
+    width: 90%;
+    scrollbar-width: none;
+    height: 40%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 298px 298px 298px 298px 298px;
+    grid-template-rows: 198px;
+    grid-gap: 30px;
+}
+.p4-card{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid black;
+    padding: 20px 15px;
+}
+.profile{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.profile-photo{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.profile-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 10px;
+
+}
+.profile-info h4,p{
+    font-family: "Archivo", sans-serif;
+}
+.profile-info h4{
+    margin-top: 4%;
+    font-size: 18px;
+}
+.profile-info p{
+    margin-top: 3%;
+    font-size: 15px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    font-weight: 600;
+    margin-right: -10px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    font-weight: 200;
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+}
+.line, .about{
+    margin-top: -20px;
+}
+.divider{
+    border: 1px solid rgb(57, 55, 55);
+    width: 90%;
+    height: 0.51px;
+    margin-top: 1%;
+    background-color: rgb(57, 55, 55);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+}
+.footer-text{
+    font-family: "DotGothic16";
+    font-weight: 100;
+    font-size: 28px;
+    font: 100;
+}
+.contact{
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 21px;
+    letter-spacing: -1px;
+    transition: 0.2s ease-out;
+}
+.contact:hover{
+    color: white;
+    background-color: black;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px){
+    .nav-options{
+        font-size:0.7em;
+    }
+    #nav-title,#nav-contact ul{
+        margin-left: -10%;
+    }
+}
+@media screen and (max-width:1007px),(min-width:890px){
+    .p3right h2{
+        font-size: 20px;
+    }
+    .p3-intro{
+        font-size: 37px;
+    }
+    .p3left h1{
+        font-size: 25px;
+    }
+    .lower h1{
+        font-size:20px ;
+    }
+}
+@media screen and (max-width:700px){
+    .p3-intro{
+        margin-top: 34%;
+    }
+    .p3-text{
+        margin-top: 25%;
+    }
+    .card{
+        height:22% ;
+    }
+}
+@media screen and (max-width:890px){
+    .p3right h2{
+        font-size: 15px;
+    }
+    .p3-intro{
+        font-size: 30px;
+    }
+    .p3left h1{
+        font-size: 20px;
+    }
+    .lower h1{
+        font-size:15px ;
+    }
+}
+@media  screen and (min-width:1100px) {
+    .client-txt{
+        margin-top: 8%;
+    }
+}
+@media  screen and (max-width:670px){
+    .client-txt{
+        margin-top: 12%;
+    }
+}
+@media screen and (max-width:952px){
+    .navbar ul,#nav-contact{
+        display: none;
+    }
+    i{
+        opacity: 1;
+    }
+    .navbar{
+        justify-content: space-between;
+        width: 75%;
+    }
+    #nav-title{
+        font-size: 35px;
+        margin-left: -50%;
+        width: 77%;
+    }
+    .hero-text{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:540px){
+    .hero-text{
+        font-size: 60px;
+    }
+    #nav-title{
+        font-size: 30px;
+        width: 85%;
+    }
+}
+@media screen and (max-width:452px){
+    .p3-intro{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:640px){
+    .text h2{
+        font-size: 17px;
+    }
+    .text p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:415px){
+    .client-txt{
+        font-size: 30px;
+        margin-top: 21%;
+    }
+}
+@media  screen and (max-width:410px){
+    .lower{
+        width: 250px;
+    }
+    .footer-text{
+        font-size: 22px;
+    }
+}
+@media  screen and (min-width:950px){
+    i{
+        opacity: 0;
+    }
+}
