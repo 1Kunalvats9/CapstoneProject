@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -85,11 +86,14 @@ ul li:nth-child(3){
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    height: 3643px;
     position: relative;
 }
 .content-block{
     width: 1344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 .hero-section{
     width: 100%;
@@ -407,6 +411,60 @@ ul li:nth-child(3){
     font-family: "Archivo";
     font-size: 20px;
     font-weight: 200;
+    line-height: 24px;
+    color: rgba(0,0,0,1);
+}
+.divider{
+    width: 100vw;
+    border: 1px solid rgba(0,0,0,1);
+}
+footer{
+    width: 1344px;
+    height: 168px;
+    border-top: 1px;
+    padding-top: 96px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    width: 1344px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-links{
+    width: 316px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.page-links h1{
+    font-family: "DotGothic16";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.button-large{
+    width: 134px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 12px 24px 12px 24px;
+    box-sizing: border-box;
+}
+.button-large h1{
+    height:24px;
+    width: 86px;
+    font-family: "Archivo Narrow";
+    font-weight: 500;
+    font-size: 20px;
     line-height: 24px;
     color: rgba(0,0,0,1);
 }
