@@ -303,12 +303,13 @@ ul li:nth-child(3){
 .test-card{
     width: 288px;
     height: 168px;
-    border: 1px;
+    border: 1px solid black;
     padding: 24px;
     gap: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
     flex-direction: column;
 }
 .profile-container{
