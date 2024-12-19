@@ -783,7 +783,7 @@ footer{
     } 
 }
 
-@media screen and (max-width:1002px){
+@media screen and (min-width:432px) and (max-width:1002px){
     .navbar{
         box-sizing: border-box;
         padding-left: 2%;
